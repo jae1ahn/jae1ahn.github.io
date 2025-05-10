@@ -1,5 +1,5 @@
 ---
-layout: Studies
+layout: blog
 title: J1A - Studies
 description: phisics
 sitemap:
