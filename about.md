@@ -11,6 +11,4 @@ sitemap:
 
 I'm an undergad intern at <a href='https://photon.hanyang.ac.kr/home'> HYU Microstructure Optics Lab</a>.
 
-
-## What I'm interested in
 I'm mostly writing about various topics in Physics, I also like to travel and play the guitar 🎸.
