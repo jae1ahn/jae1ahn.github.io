@@ -1,6 +1,6 @@
 ---
-layout: blog
-title: J1A - Blog
+layout: Studies
+title: J1A - Studies
 description: phisics
 sitemap:
     priority: 1.0
