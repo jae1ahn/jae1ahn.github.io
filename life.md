@@ -1,7 +1,6 @@
 ---
 layout: life
 title: Life
-permalink: /life/
 description: Posts about daily life, thoughts, and experiences
 sitemap:
   priority: 0.8
