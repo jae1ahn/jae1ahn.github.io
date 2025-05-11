@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: J1A - Studies
+title: J1A - Studylog
 description: phisics
 sitemap:
     priority: 1.0
