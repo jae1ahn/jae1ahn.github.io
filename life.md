@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: life
 title: Life
 permalink: /life/
 description: Posts about daily life, thoughts, and experiences
