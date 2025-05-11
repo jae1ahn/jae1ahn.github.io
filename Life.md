@@ -1,6 +1,6 @@
 ---
 layout: life
-title: Life
+title: J1A - Life
 description: Posts about daily life, thoughts, and experiences
 sitemap:
   priority: 0.8
