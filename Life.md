@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: life
 title: Life
 description: Posts about daily life, thoughts, and experiences
 sitemap:
