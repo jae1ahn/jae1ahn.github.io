@@ -10,4 +10,4 @@ sitemap:
 
 I'm an undergad intern at <a href='https://photon.hanyang.ac.kr/home'> HYU Microstructure Optics Lab</a>.
 
-Here, I mainly post study notes on various topics in physics.
+Here, I mainly post my random photos and study notes on various topics in physics.
