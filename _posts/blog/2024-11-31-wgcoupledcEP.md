@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Exceptional Points in waveguide coupled microcavities"
-date: 2025-05-11
+date: 2024-11-31
 categories: blog
 excerpt: "Perturbation induced frequency splitting"
 image: ""
