@@ -4,7 +4,7 @@ title: "Exceptional Points in waveguide coupled microcavities"
 date: 2024-11-31
 categories: blog
 excerpt: "Perturbation induced frequency splitting"
-image: ""
+image: "/study_img/wgCoupledC/eigenfreqHeff.png"
 ---
 
 <head>
