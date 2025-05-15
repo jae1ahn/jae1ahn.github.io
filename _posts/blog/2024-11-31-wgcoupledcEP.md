@@ -4,7 +4,7 @@ title: "Exceptional Points in waveguide coupled microcavities"
 date: 2024-11-31
 categories: blog
 excerpt: "Perturbation induced frequency splitting"
-image: "/study_img/wgCoupledC/eigenfreqHeff.png"
+image: "Sim3-ez-gif"
 ---
 
 <head>
@@ -21,3 +21,4 @@ image: "/study_img/wgCoupledC/eigenfreqHeff.png"
        <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 </head>
 
+<img src="/study_img/wgCoupledC/eigenfreqHeff.png" alt="Slab and Channel Waveguides" style="width: auto; height: auto;"/>
