@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "modes of Rectangular Waveguide"
+title: "Exceptional Points in waveguide coupled microcavities"
 date: 2025-05-11
 categories: blog
-excerpt: ""
-image: "/study_img/rwg/rwg.png"
+excerpt: "Perturbation induced frequency splitting"
+image: ""
 ---
 
 <head>
@@ -21,4 +21,3 @@ image: "/study_img/rwg/rwg.png"
        <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 </head>
 
-<img src="/study_img/rwg/confinement.png" alt="Slab and Channel Waveguides" style="width: auto; height: auto;"/>
