@@ -3,7 +3,7 @@ layout: photopost
 title: "Tokyo"
 date: 2024-12-20
 categories: photo
-excerpt: "2024-12-30 ~ 2025-1-6"
+excerpt: "2024-12-30 ~ 2025-1-4"
 image: "/photo_img/tokyo2024/tokyo-1.jpeg"
 ---
 {% include image-gallery.html folder="photo_img/tokyo2024" %}
