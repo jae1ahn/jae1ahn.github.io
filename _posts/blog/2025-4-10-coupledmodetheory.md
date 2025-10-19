@@ -21,3 +21,5 @@ image: ""
        <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 </head>
 
+<img src="/study_img/cmt/1.png" alt="scheme" style="width: 50%; height: auto;"/>
+<img src="/study_img/cmt/2.png" alt="effective index" style="width: 50%; height: auto;"/>
