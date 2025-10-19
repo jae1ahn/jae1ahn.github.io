@@ -77,6 +77,6 @@ $$
 \Delta\beta & \kappa_{12} \\
 \kappa_{21} & -\Delta\beta
 \end{pmatrix}, \quad
-\text{eigenvalue } \lambda = \pm\sqrt{(\Delta\beta)^2 + \kappa_{12}\kappa_{21}}
+\text{eigenvalue } \lambda = \pm \displaystyle \sqrt{(\Delta\beta)^2 + \kappa_{12}\kappa_{21}}
 $$
 </div>
