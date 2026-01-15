@@ -21,62 +21,67 @@ image: ""
        <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 </head>
 
-<img src="/study_img/cmt/1.png" alt="scheme" style="width: 50%; height: auto;"/>
-<img src="/study_img/cmt/2.png" alt="effective index" style="width: 50%; height: auto;"/>
-
 
 <div style="overflow-x: auto;">
 $$
-\left[\partial_x^2 + \partial_z^2 + n^2(x)\frac{\omega_0^2}{c^2}\right] E_y = 0
+\left[\nabla^2 + n^2k_0^2\right]\psi = 0
 $$
 </div>
 
 <div style="overflow-x: auto;">
 $$
-E_y(x,z) = A(z)\psi_1(x)e^{i\beta_1 z} + B(z)\psi_2(x)e^{i\beta_2 z}
+\partial_z^2\psi=\left[\nabla^2_\perp + \sum_{m}n_m^2k_0^2\right]\psi
 $$
 </div>
 
+<div style="overflow-x: auto;">
+$$
+\beta_m^2\u_m(x,y)=\left[\nabla^2_\perp + n_m^2k_0^2\right]\u_m(x,y)
+$$
+</div>
+
+<div style="overflow-x: auto;">
+$$
+\psi(x,y,z)=\sum_{m}a_m(z)u_m(x,y)e^{-i\beta_m z}=\sum_{m}A_m(z)u_m(x,y)
+$$
+</div>
+
+plugging on Eq(2) and using slowly varying envelope approximation(SVEA, $\|\partial_za|>>|\partial_z^2a|$) yields
+
+<div style="overflow-x: auto;">
+$$
+\sum_{m}2i\beta_m\frac{da_m(z)}{dz}u_m e^{-i\beta_m z} = -\sum_{m}\Delta n^2 k_0^2 a_m u_m e^{-i\beta_m z}
+$$
+</div>
+
+now projection assuming mode orthonormality $\int u_m^*u_pdxdy=\delta_{pm}$ gives
+
+<div style="overflow-x: auto;">
+$$
+i\frac{da_p(z)}{dz} = \sum_{m}\kappa_{pm} e^{i(\beta_p-\beta_m)z} a_m
+$$
+</div>
+
+where $\kappaf_{pm} = \frac{1}{2\beta_p}k_0^2\int dxdy (n^2-n_m^2)u^*_p(x,y)u_m(x,y) (n^2-n^2_m can be considered as n_p^2)$ is coupling coefficient
+
+
+with $A_m=a_me^{-i\beta_mz}$,
+
+<div style="overflow-x: auto;">
+$$
+i\frac{d\bf{A}}{dz}=\bf{H}\bf{A}
+$$
+</div>
+
+where $H_{pm}=\beta_p\delta_{pm} + \kappa_{pm}$
+
+therefore supermodes satisfy 
 <div style="overflow-x: auto;">
 $$
 \begin{align}
-\frac{\partial A}{\partial z} + i\kappa_{12}B e^{i(\beta_1-\beta_2)z} = 0 \\
-\frac{\partial B}{\partial z} + i\kappa_{21}A e^{i(\beta_2-\beta_1)z} = 0
+  \bf{A}=\bf{v}e^{-i\beta z} \\
+  \bf{Hv}=\beta\bf{v} \\
+  \beta \in eig(\bf{H})
 \end{align}
-$$
-</div>
-
-<div style="overflow-x: auto;">
-$$
-\kappa_{ij} = \frac{1}{2\beta_i}\frac{\omega^2_0}{c^2}\int n_i^2(x)\psi^*_i(x)\psi_j(x)\,dx
-$$
-</div>
-
-<div style="overflow-x: auto;">
-$$
-A(z) = a(z)e^{i\Delta \beta z}, \quad
-B(z) = b(z)e^{-i\Delta \beta z}, \quad
-(\Delta \beta = \frac{\beta_1-\beta_2}{2})
-$$
-</div>
-
-<div style="overflow-x: auto;">
-$$
-\partial_z 
-\begin{pmatrix} a \\ b \end{pmatrix} 
-= -i 
-\mathbf{H}
-\begin{pmatrix} a \\ b \end{pmatrix}
-$$
-</div>
-
-<div style="overflow-x: auto;">
-$$
-\mathbf{H} =
-\begin{pmatrix}
-\Delta\beta & \kappa_{12} \\
-\kappa_{21} & -\Delta\beta
-\end{pmatrix}, \quad
-\text{eigenvalue } \lambda = \pm \displaystyle \sqrt{(\Delta\beta)^2 + \kappa_{12}\kappa_{21}}
 $$
 </div>
