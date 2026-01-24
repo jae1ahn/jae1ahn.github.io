@@ -36,7 +36,7 @@ $$
 
 <div style="overflow-x: auto;">
 $$
-\beta_m^2\u_m(x,y)=\left[\nabla^2_\perp + n_m^2k_0^2\right]\u_m(x,y)
+\beta_m^2u_m(x,y)=\left[\nabla^2_\perp + n_m^2k_0^2\right]u_m(x,y)
 $$
 </div>
 
@@ -62,7 +62,7 @@ i\frac{da_p(z)}{dz} = \sum_{m}\kappa_{pm} e^{i(\beta_p-\beta_m)z} a_m
 $$
 </div>
 
-where $\kappaf_{pm} = \frac{1}{2\beta_p}k_0^2\int dxdy (n^2-n_m^2)u^*_p(x,y)u_m(x,y) (n^2-n^2_m can be considered as n_p^2)$ is coupling coefficient
+where $\kappa_{pm} = \frac{1}{2\beta_p}k_0^2\int dxdy (n^2-n_m^2)u^*_p(x,y)u_m(x,y) (n^2-n^2_m \text{can be considered as} n_p^2)$ is coupling coefficient
 
 
 with $A_m=a_me^{-i\beta_mz}$,
