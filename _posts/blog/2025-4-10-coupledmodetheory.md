@@ -46,7 +46,7 @@ $$
 $$
 </div>
 
-plugging on Eq(2) and using slowly varying envelope approximation(SVEA, $\|\partial_za|>>|\partial_z^2a|$) yields
+plugging on Eq(2) and using slowly varying envelope approximation(SVEA, $|\partial_za|>>|\partial_z^2a|$) yields
 
 <div style="overflow-x: auto;">
 $$
