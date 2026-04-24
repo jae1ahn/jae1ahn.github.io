@@ -22,4 +22,3 @@ image: ""
        <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 </head>
 
-<img src="/study_img/wgCoupledC/eigenfreqHeff.png" alt="Slab and Channel Waveguides" style="width: auto; height: auto;"/>
